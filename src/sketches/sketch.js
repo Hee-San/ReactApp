@@ -15,7 +15,8 @@ export default function sketch (p) {
     p.background(100);
     p.noStroke();
     p.push();
-    p.rotateY(rotation);
+    p.rotateY(p.frameCount* Math.PI / 180);
+    p.rotateX(-p.frameCount / 3* Math.PI / 180);
     p.box(100);
     p.pop();
   };
