@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import P5Wrapper from 'react-p5-wrapper';
+import sketch from './sketches/sketch';
 
 class App extends Component {
   render() {
@@ -13,6 +15,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <P5Wrapper sketch=sketch/>
       </div>
     );
   }
