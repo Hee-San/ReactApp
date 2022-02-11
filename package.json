@@ -4,7 +4,7 @@
   "homepage": "https://hee-san.github.io/ReactApp",
   "private": true,
   "dependencies": {
-    "ajv": "^6.5.1",
+    "ajv": "^6.12.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-p5-wrapper": "0.0.4",
